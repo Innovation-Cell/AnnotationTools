@@ -1,4 +1,4 @@
-# ImageViewer
+# MultiClass Annotation Tool
 The GUI application will allow to view the images and annotate them according to corresponding class. 
 For every image, annotation consist of n (number of classes) numbers either 0 or 1 depending upon class exists in image or not. 
 
@@ -11,9 +11,6 @@ You can modify Number of classes depending upon your dataset and the way you wan
 Now clone the repository to your machine. Go to your terminal and the type:
 ```
 git clone https://github.com/nilbarde/ImageViewer
-```
-```
-cd ImageViewer
 ```
 
 Paste the image files in the images folder.
