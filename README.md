@@ -42,9 +42,9 @@ Instructions for Usage
 5. When annotation gets complete click on correct button (or keyboard shortcut). Images gets transferred to final_images folder and Annotation json file is created with name same as image name and appropriate extension.<br>
 <br>
 
-Default keyboard shortcuts
-A -: All Clear
-S -: Save/ Annotated Image
-D -: Bad Image
+Default keyboard shortcuts <br>
+A -: All Clear <br>
+S -: Save/ Annotated Image <br>
+D -: Bad Image <br>
 
-Numkeys for selection of Class
+Numkeys for selection of Class <br>
