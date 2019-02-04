@@ -37,7 +37,7 @@ Instructions for Usage
 3. You can modify annotation using defined Keyboard shortcuts (which can be modified according to usage) or clicking on corresponding button or checkbox.<br>
 ![Alt text](TrafficSignSample.png "Title")
 
-4. If image is not good or not usable for training use wrong button to delete image.<br>
+4. If image is not good or not usable for training then use wrong button to delete image.<br>
 
 5. When annotation gets complete click on correct button (or keyboard shortcut). Images gets transferred to final_images folder and Annotation json file is created with name same as image name and appropriate extension.<br>
 
