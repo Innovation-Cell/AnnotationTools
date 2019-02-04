@@ -40,4 +40,11 @@ Instructions for Usage
 4. If image is not good or not usable for training then use wrong button to delete image.<br>
 
 5. When annotation gets complete click on correct button (or keyboard shortcut). Images gets transferred to final_images folder and Annotation json file is created with name same as image name and appropriate extension.<br>
+<br>
 
+Default keyboard shortcuts
+A -: All Clear
+S -: Save/ Annotated Image
+D -: Bad Image
+
+Numkeys for selection of Class
