@@ -10,7 +10,7 @@ You can modify Number of classes depending upon your dataset and the way you wan
 
 Now clone the repository to your machine. Go to your terminal and the type:
 ```
-git clone https://github.com/nilbarde/ImageViewer
+git clone https://github.com/nilbarde/AnnotationTools
 ```
 
 Paste the image files in the images folder.
@@ -35,6 +35,7 @@ Instructions for Usage
 2. Application annotates Image using DefaultDict defined in Initializatin of Class. <br>
 
 3. You can modify annotation using defined Keyboard shortcuts (which can be modified according to usage) or clicking on corresponding button or checkbox.<br>
+![Alt text](TrafficSignSample.png "Title")
 
 4. If image is not good or not usable for training use wrong button to delete image.<br>
 
