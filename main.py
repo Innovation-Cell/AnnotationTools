@@ -62,7 +62,6 @@ class HomeScreen(Screen):
 
 	def _on_keyboard_down(self, keyboard, keycode, text, modifiers):
 		# Reading Keyboard Inputs
-		print(self.NowImage,len(self.DataList))
 		if not(self.NowImage<len(self.DataList)):
 			print("return")
 			return
@@ -92,7 +91,6 @@ class HomeScreen(Screen):
 		folders = self.get_folders(self.LoadDataDir)
 		self.DataList = self.get_files(folders,".jpg")
 		self.DataList.sort()
-		print(self.DataList)
 
 		self.NowImage = -1
 
@@ -141,6 +139,7 @@ class HomeScreen(Screen):
 		# making grid and inserting image.     Easy for positioning of Image
 		self.ImageGrid = GridLayout(cols=1,size_hint=(self.DataW,self.DataH),pos_hint={"center_x":self.DataX,"center_y":self.DataY})
 		source = self.DataImageSource
+		print(source)
 		self.DataImage = ImageButton(source=source,keep_ratio=True,allow_stretch=True)
 		self.ImageGrid.add_widget(self.DataImage)
 		self.add_widget(self.ImageGrid)
@@ -200,7 +199,7 @@ class HomeScreen(Screen):
 				 self.LightClasses["class"][i] = int(self.CheckBoxes[i].active)
 			self.write_json(self.LightClasses, self.SaveDataDir + self.DataImageSource[len(self.LoadDataDir):-3] + "json")
 		else:
-			self.LightClasses["status"] = 0
+			self.LightClasses["status"] = 1
 			self.write_json(self.LightClasses, self.DataImageSource[:-3] + "json")
 		self.OpenNextImage()
 
