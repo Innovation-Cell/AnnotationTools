@@ -200,7 +200,8 @@ class HomeScreen(Screen):
 				 self.LightClasses["class"][i] = int(self.CheckBoxes[i].active)
 			self.write_json(self.LightClasses, self.SaveDataDir + self.DataImageSource[len(self.LoadDataDir):-3] + "json")
 		else:
-			remove(self.DataImageSource[:-3]+"json")
+			self.LightClasses["status"] = 0
+			self.write_json(self.LightClasses, self.DataImageSource[:-3] + "json")
 		self.OpenNextImage()
 
 	def OpenNextImage(self):
